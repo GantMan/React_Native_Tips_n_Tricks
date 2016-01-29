@@ -2,11 +2,10 @@
 Lessons learned - Tips and Tricks for React Native
 
 ### [Listviews](#listviews)
-* [Using `scrollTo` on a Listview](#using `scrollTo` on a Listview)
+* [Using `scrollTo` on a Listview](#using-scrollto-on-a-listview)
 
 ### [Screens](#screens)
-
-* [Avoiding the Keyboard with Views](#avoiding-the-Keyboard-with-views)
+* [Avoiding the Keyboard with Views](#avoiding-the-keyboard-with-views)
 
 ## Listviews
 ### Using `scrollTo` on a Listview
