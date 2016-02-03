@@ -15,6 +15,8 @@ In most cases this looks like so: `this.refs.someListView.getScrollResponder().s
 
 If you've implemented `RefreshControl` for pull to refresh, you can't animate to the top without triggering the Refresh (it looks horrible).   You'll have to go with `this.refs.someListView.getScrollResponder().scrollTo(0, 0)`
 
+    // If less than version 0.19, use scrollWithoutAnimation(0,0)
+
 ## Screens
 ### Avoiding the Keyboard with Views
 Firstly, we need to listen to keyboard events, you'll need to import `DeviceEventEmitter`.  You'll also need to know the screen's full height, so we can subtract out the keyboard.  For this we'll import `Dimensions`.
